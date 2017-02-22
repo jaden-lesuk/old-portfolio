@@ -1,0 +1,28 @@
+.sect1 {
+  text-align: center;
+  background-image: url(../assets/backgrounds/b-w.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.custom-navbar {
+  background: transparent;
+  border: 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.custom-button {
+  width: 200px;
+  background-color: white;
+  border: #5bbad6 2px solid;
+  color: #5bbad6;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.custom-head1 {
+  color: #5bbad6;
+  font-family: cursive;
+}
