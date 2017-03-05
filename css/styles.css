@@ -1,9 +1,26 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/black-pearl.ttf);
+  color: #9a9a9a;
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(../fonts/colleged.ttf);
+  color: #9a9a9a;
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(../fonts/china.ttf);
+}
+
 .sect1 {
   text-align: center;
   background-image: url(../assets/backgrounds/b-w.png);
   background-position: center;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 25px;
 }
 
@@ -14,15 +31,110 @@
 }
 
 .custom-button {
-  width: 200px;
+  width: 170px;
   background-color: white;
-  border: #5bbad6 2px solid;
-  color: #5bbad6;
+  border: #9a9a9a 3px solid;
+  font-family: mySecondFont;
+  font-size: 20px;
   margin-left: 5px;
   margin-right: 5px;
+  color: black;
+}
+
+.custom-button:hover {
+  color: #9a9a9a;
 }
 
 .custom-head1 {
-  color: #5bbad6;
-  font-family: cursive;
+  font-family: mySecondFont;
+  font-size: 500%;
+  color: gold;
+}
+
+.custom-head2 {
+  font-family: mySecondFont;
+  color: black;
+}
+
+.custom-head3 {
+  font-family: myThirdFont;
+  color: black;
+  font-size: 35px;
+}
+
+#sect2 {
+  text-align: center;
+  background-color: #f8f8ff;
+  background-position: center;
+  background-size: cover;
+  margin: -20px 0px 0px 0px;
+  padding: 20px;
+}
+
+.bio {
+  margin-left: 270px;
+  margin-right: 270px;
+}
+
+.well {
+  background-color: rgba(245, 245, 245, 0.6);
+}
+
+.quote {
+  font-family: myFirstFont;
+  font-size: 400%;
+  color: #708090;
+}
+
+#sect3 {
+  text-align: center;
+  background-image: url(../assets/backgrounds/p-p.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 250px;
+}
+
+#sect4 {
+  text-align: center;
+  padding-bottom: 250px;
+  padding-top: 20px;
+  background-color: #f8f8ff;
+}
+
+#sect5 {
+  text-align: center;
+  background-image: url(../assets/backgrounds/y-g.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#social {
+  margin-left: 477px;
+}
+
+#social li {
+  float: left;
+  list-style: none;
+  padding-right: 5px;
+}
+
+#social img {
+  width: 55px;
+  height: 55px;
+}
+
+#email-address {
+  color: gold;
+}
+
+#well5 {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.desPro {
+  font-size: 25px;
 }
